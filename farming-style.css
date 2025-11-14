@@ -1,0 +1,36 @@
+
+
+.hero-section img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+
+}
+
+
+.hero-section .carousel-caption p{
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 44px;
+    background-color: rgb(155, 185, 229);
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+
+.card {
+    border: 1px solid #ebebeb;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-color: #ddd;
+}
+
